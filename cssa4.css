@@ -1,0 +1,128 @@
+.container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(207, 228, 252);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container img {
+  max-width: 40%;
+  height: auto;
+  margin: 0px;
+  float: left;
+}
+
+.content .header {
+  background-color: rgb(146, 50, 50);
+  color: black;
+  padding: 20px;
+  height: auto;
+
+
+}
+
+.content {
+  width: 100%;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+.content h1 {
+  max-width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.content p {
+  margin: 20px 10px 10px 10px;
+  width: 80%;
+  font-size: 200%;
+}
+
+.content p img {
+  float: right;
+  margin-left: -10px;
+}
+
+.content input {
+  align-items: center;
+  margin: 30px 0px 0px 0px;
+  opacity: 0.8;
+  padding: 8px 15px;
+  background-color: rgb(214, 220, 244);
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.content button {
+  padding: 5px 10px;
+  background-color: rgb(214, 220, 244);
+}
+
+#search1 {
+  display: none;
+  width: 50%;
+  height: 35%;
+}
+
+.content input:focus {
+  outline: none;
+  background-color: rgb(150, 166, 235);
+}
+
+.content .list {
+  background-color: white;
+  max-height: 480px;
+  width: 100%;
+  overflow: scroll;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.content .list>div:nth-child(odd) {
+  background-color: rgb(235, 216, 209);
+}
+
+.content .list>div {
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 10px;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.content .list > div.hidden {
+  display: none;
+}
+
+.content .detail {
+  text-align: justify;
+  margin: 0px 20px 0px -300px;
+}
+
+.content .list img {
+  width: auto;
+  height: 100%;
+}
+
+.content a {
+  font-size: 175%;
+}
+
+.content .detail p {
+  font-size: 80%;
+}
+
